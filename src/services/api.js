@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://pharun-frontend-dqe2crhhe0gfdaf9.japanwest-01.azurewebsites.net/api',
+  baseURL: 'https://pharun-backend-hhdudzemehdnfvhu.japanwest-01.azurewebsites.net/api',
   // baseURL: 'http://127.0.0.1:8000/api', // Local API
   headers: {
     'Content-Type': 'application/json',
